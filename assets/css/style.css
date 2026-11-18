@@ -250,7 +250,7 @@ h2 { font-size: clamp(34px, 4vw, 54px); line-height: 1.12; margin-bottom: 0; }
 .laser-hero h1 em, .laser-section h2 em { color: var(--laser-terracotta); font-family: var(--serif); font-weight: 400; }
 .laser-lead { max-width: 500px; color: #735e58; font-size: 16px; line-height: 1.8; margin-bottom: 30px; }
 .laser-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 25px; }
-.laser-actions .button-dark { background: var(--laser-brown); }
+.laser-actions .button-dark { background: var(--laser-brown); color: #fffaf8; }
 .laser-actions .button-dark:hover { background: #6c4037; }
 .laser-secondary-link { color: var(--laser-terracotta); border-bottom: 1px solid #c79687; padding-bottom: 7px; font-size: 11px; font-weight: 700; }
 .laser-secondary-link span { margin-left: 7px; font-size: 15px; font-weight: 400; }
@@ -273,7 +273,7 @@ h2 { font-size: clamp(34px, 4vw, 54px); line-height: 1.12; margin-bottom: 0; }
 .laser-service { display: grid; grid-template-columns: 1.05fr .95fr; gap: 9%; padding: 100px clamp(22px, 9vw, 140px); background: var(--laser-brown); color: #fffaf8; }
 .laser-service h2 { color: #fffaf8; font-size: clamp(44px, 5.5vw, 73px); }
 .laser-service-copy > p:not(.eyebrow) { max-width: 430px; margin: 22px 0 30px; color: #dbc6c0; font-size: 14px; line-height: 1.8; }
-.laser-service .button-light { color: var(--laser-brown); }
+.laser-service .button-light, .laser-page .button-light { color: var(--laser-brown); }
 .laser-service-points { align-self: center; }
 .laser-service-points > div { display: grid; grid-template-columns: 34px 1fr; gap: 12px; padding: 20px 0; border-top: 1px solid rgba(255,250,248,.24); }
 .laser-service-points > div > span { color: #d6aaa0; font: 500 11px var(--display); }
@@ -316,4 +316,43 @@ h2 { font-size: clamp(34px, 4vw, 54px); line-height: 1.12; margin-bottom: 0; }
   .laser-footer { display: block; padding: 38px 22px 25px; }
   .laser-footer-links { justify-content: flex-start; margin-top: 28px; }
   .laser-footer small { display: block; margin-top: 28px; }
+}
+
+/* Compact scale for clinic landing pages */
+.laser-header { min-height: 68px; }
+.laser-brand { font-size: 18px; }
+.laser-hero { min-height: 555px; }
+.laser-hero-copy { padding-top: 54px; padding-bottom: 54px; }
+.laser-hero h1 { font-size: clamp(43px, 5vw, 68px); margin-bottom: 20px; }
+.laser-lead { font-size: 14px; line-height: 1.7; margin-bottom: 24px; }
+.laser-hero-photo { min-height: 555px; }
+.laser-photo-label { right: 18px; bottom: 18px; }
+.laser-nap { padding-top: 20px; padding-bottom: 20px; }
+.laser-nap-label { margin-bottom: 6px; }
+.laser-nap strong { font-size: 13px; }
+.laser-section { padding-top: 72px; padding-bottom: 72px; }
+.laser-section h2 { font-size: clamp(37px, 4vw, 56px); }
+.laser-about-copy { font-size: 14px; line-height: 1.75; }
+.laser-service { padding-top: 72px; padding-bottom: 72px; }
+.laser-service h2 { font-size: clamp(40px, 4.5vw, 60px); }
+.laser-service-points > div { padding-top: 14px; padding-bottom: 14px; }
+.laser-service-points strong { font-size: 16px; }
+.laser-map-wrap, .laser-map-wrap iframe { min-height: 310px; height: 310px; }
+.laser-faq-list details { padding-top: 16px; padding-bottom: 16px; }
+.laser-faq-list summary { font-size: 15px; }
+.laser-footer { padding-top: 34px; }
+@media (max-width: 760px) {
+  .laser-header { min-height: 64px; }
+  .laser-hero-photo { min-height: 390px; max-height: 390px; }
+  .laser-hero-copy { padding: 43px 22px 48px; }
+  .laser-hero h1 { font-size: clamp(42px, 11vw, 57px); margin-bottom: 18px; }
+  .laser-lead { margin-bottom: 22px; }
+  .laser-nap { gap: 16px; padding-top: 23px; padding-bottom: 23px; }
+  .laser-section, .laser-service { padding-top: 58px; padding-bottom: 58px; }
+  .laser-section h2, .laser-service h2 { font-size: clamp(37px, 10vw, 50px); }
+  .laser-about-copy { margin-top: 24px; }
+  .laser-service-points { margin-top: 40px; }
+  .laser-map-wrap, .laser-map-wrap iframe { min-height: 280px; height: 280px; }
+  .laser-faq-list { margin-top: 28px; }
+  .laser-footer { padding-top: 30px; }
 }
