@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://meulaserday.com.br/</loc>
-  </url>
-  <url>
-    <loc>https://meulaserday.com.br/laser-day-em-santos/</loc>
-  </url>
-  <url>
-    <loc>https://meulaserday.com.br/para-clinicas/</loc>
-  </url>
+  <url><loc>https://meulaserday.com.br/</loc></url>
+  <url><loc>https://meulaserday.com.br/clinicas/</loc></url>
+  <url><loc>https://meulaserday.com.br/laser-day-em-santos/</loc></url>
+  <url><loc>https://meulaserday.com.br/para-clinicas/</loc></url>
 </urlset>
