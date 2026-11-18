@@ -1,14 +1,23 @@
 # Meu Laser Day
 
-> Portal para encontrar clínicas que oferecem Laser Day e divulgar serviços de depilação a laser.
+> Plataforma de divulgação de Laser Day para clínicas de depilação a laser.
 
-O Meu Laser Day conecta pessoas interessadas em Laser Day às clínicas participantes. Cada clínica é responsável por seus serviços, procedimentos, preços, condições, orientações e agendamentos.
+O Meu Laser Day ajuda clínicas a divulgar suas ações de Laser Day. As clínicas podem solicitar cadastro no diretório e uma landing page individual para apresentar o estabelecimento, as informações do Laser Day e os canais de contato.
+
+O foco atual do portal é Laser Day de depilação a laser. A plataforma poderá ampliar suas categorias futuramente, mas não anuncia outros procedimentos neste momento.
+
+## Benefício para parceiros Áurea Laser
+
+Clínicas parceiras da Áurea Laser Locação contam com cadastro no diretório e criação de landing page sem custo adicional.
+
+Clínicas que ainda não são parceiras podem consultar as condições comerciais para divulgação e criação de landing page.
 
 ## Páginas principais
 
-- https://meulaserday.com.br/: página inicial do portal.
-- https://meulaserday.com.br/laser-day-em-santos/: página local para encontrar clínicas participantes em Santos, São Paulo.
-- https://meulaserday.com.br/para-clinicas/: informações para clínicas interessadas em divulgar sua atuação no portal.
+- https://meulaserday.com.br/: apresentação da plataforma para clínicas.
+- https://meulaserday.com.br/clinicas/: diretório de clínicas participantes.
+- https://meulaserday.com.br/laser-day-em-santos/: clínicas participantes em Santos, São Paulo.
+- https://meulaserday.com.br/para-clinicas/: cadastro, divulgação e condições para clínicas.
 
 ## Iniciativa
 
@@ -18,4 +27,4 @@ O Meu Laser Day é uma iniciativa da Áurea Laser, que também oferece locação
 
 ## Observação
 
-A disponibilidade de clínicas participantes varia conforme os cadastros publicados. Confirme diretamente com cada estabelecimento as informações sobre atendimento, valores e agendamento.
+Cada clínica é responsável por seus procedimentos, avaliações, preços, condições, orientações e agendamentos. Confirme as informações diretamente com o estabelecimento.
