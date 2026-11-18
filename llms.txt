@@ -1,0 +1,20 @@
+# Meu Laser Day
+
+> Portal de divulgação de eventos de depilação a laser promovidos por clínicas.
+
+O Meu Laser Day ajuda pessoas a encontrar eventos de depilação a laser em suas cidades. Os eventos são organizados e realizados pelas clínicas participantes, que são responsáveis por informar datas, condições, orientações e disponibilidade.
+
+## Páginas principais
+
+- https://meulaserday.com.br/: página inicial do portal.
+- https://meulaserday.com.br/para-clinicas/: informações para clínicas interessadas em divulgar seus eventos.
+
+## Iniciativa
+
+O Meu Laser Day é uma iniciativa da Áurea Laser, que também oferece locação de equipamentos para clínicas parceiras.
+
+- Site da Áurea Laser: https://aurealaser.com.br/
+
+## Observação
+
+As informações de cada evento devem ser confirmadas diretamente com a clínica responsável.
