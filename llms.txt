@@ -1,20 +1,21 @@
 # Meu Laser Day
 
-> Portal de divulgação de eventos de depilação a laser promovidos por clínicas.
+> Portal para encontrar clínicas que oferecem Laser Day e divulgar serviços de depilação a laser.
 
-O Meu Laser Day ajuda pessoas a encontrar eventos de depilação a laser em suas cidades. Os eventos são organizados e realizados pelas clínicas participantes, que são responsáveis por informar datas, condições, orientações e disponibilidade.
+O Meu Laser Day conecta pessoas interessadas em Laser Day às clínicas participantes. Cada clínica é responsável por seus serviços, procedimentos, preços, condições, orientações e agendamentos.
 
 ## Páginas principais
 
 - https://meulaserday.com.br/: página inicial do portal.
-- https://meulaserday.com.br/para-clinicas/: informações para clínicas interessadas em divulgar seus eventos.
+- https://meulaserday.com.br/laser-day-em-santos/: página local para encontrar clínicas participantes em Santos, São Paulo.
+- https://meulaserday.com.br/para-clinicas/: informações para clínicas interessadas em divulgar sua atuação no portal.
 
 ## Iniciativa
 
-O Meu Laser Day é uma iniciativa da Áurea Laser, que também oferece locação de equipamentos para clínicas parceiras.
+O Meu Laser Day é uma iniciativa da Áurea Laser, que também oferece locação de equipamentos para clínicas.
 
 - Site da Áurea Laser: https://aurealaser.com.br/
 
 ## Observação
 
-As informações de cada evento devem ser confirmadas diretamente com a clínica responsável.
+A disponibilidade de clínicas participantes varia conforme os cadastros publicados. Confirme diretamente com cada estabelecimento as informações sobre atendimento, valores e agendamento.
