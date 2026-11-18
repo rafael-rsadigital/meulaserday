@@ -161,3 +161,75 @@ h2 { font-size: clamp(34px, 4vw, 54px); line-height: 1.12; margin-bottom: 0; }
 @media (max-width: 760px) {
   .clinic-listing-actions { align-items: flex-start; flex-direction: column; gap: 16px; }
 }
+
+/* Home redesign — editorial, direct and image-led */
+.home-page { background: #f8f5f6; }
+.home-page .site-header-home { position: absolute; inset: 0 0 auto; width: 100%; background: linear-gradient(180deg, rgba(45, 25, 40, .48), transparent); border-bottom-color: rgba(255,255,255,.18); }
+.home-page .brand-light, .home-page .brand-light .brand-accent { color: #fff; }
+.home-page .brand-light .brand-mark span { background: #fff; }
+.home-page .main-nav { color: rgba(255,255,255,.84); }
+.home-page .main-nav a:hover { color: #fff; }
+.home-page .main-nav .nav-cta { color: #fff; border-color: rgba(255,255,255,.55); }
+.home-page .menu-toggle-light span { background: #fff; }
+.home-hero { min-height: min(850px, 100svh); position: relative; display: flex; flex-direction: column; justify-content: center; padding: 140px clamp(22px, 8.3vw, 128px) 72px; background: #4b2c43 url('/assets/images/hero-laser-day-optimized.jpg') center / cover no-repeat; color: #fff; overflow: hidden; }
+.home-hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(48, 26, 43, .92) 0%, rgba(48, 26, 43, .75) 31%, rgba(48, 26, 43, .18) 66%, rgba(48, 26, 43, .08) 100%), linear-gradient(0deg, rgba(42, 23, 38, .47), transparent 38%); }
+.home-hero-content, .home-hero-footer { position: relative; z-index: 1; }
+.home-hero-content { max-width: 610px; }
+.home-hero .eyebrow { margin-bottom: 27px; }
+.home-hero h1 { font-size: clamp(54px, 7.1vw, 104px); line-height: .97; letter-spacing: -.07em; margin: 0 0 30px; color: #fff; }
+.home-hero h1 em { color: #f1cbd9; }
+.home-hero-intro { max-width: 410px; color: rgba(255,255,255,.78); font-size: 16px; line-height: 1.75; margin: 0 0 34px; }
+.home-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 26px; }
+.home-hero .button-light { background: #f6e9ee; }
+.home-hero .button-light:hover { background: #fff; }
+.home-text-link { color: #fff; border-bottom: 1px solid rgba(255,255,255,.56); padding-bottom: 8px; font-size: 11px; font-weight: 700; }
+.home-text-link span { margin-left: 7px; font-size: 15px; font-weight: 400; }
+.eyebrow-dot-light { background: #f1cbd9; box-shadow: 0 0 0 4px rgba(241,203,217,.17); }
+.home-hero-footer { display: flex; align-items: center; gap: 15px; margin-top: auto; padding-top: 72px; color: rgba(255,255,255,.65); font-size: 9px; font-weight: 700; letter-spacing: 1.3px; text-transform: uppercase; }
+.hero-footer-line { width: 46px; height: 1px; background: rgba(255,255,255,.45); }
+.home-intro { display: grid; grid-template-columns: 1fr 1fr; align-items: end; gap: 10%; padding-top: 112px; padding-bottom: 73px; background: #fff; }
+.home-intro-heading .eyebrow { margin-bottom: 18px; }
+.home-intro h2 { font-size: clamp(42px, 5vw, 67px); line-height: .99; }
+.home-intro h2 em { font-family: var(--serif); font-weight: 400; color: var(--plum); }
+.home-intro-copy { max-width: 430px; color: var(--muted); font-size: 15px; line-height: 1.85; margin: 0 0 4px; }
+.home-benefits { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6%; padding: 0 clamp(22px, 8.3vw, 128px) 112px; background: #fff; }
+.home-benefit { border-top: 1px solid #d8c9d2; padding-top: 20px; }
+.home-benefit-index { color: #a77c92; font: 500 11px var(--display); }
+.home-benefit h3 { color: var(--ink); font: 600 23px var(--display); letter-spacing: -.04em; margin: 25px 0 9px; }
+.home-benefit p { max-width: 280px; color: var(--muted); font-size: 13px; line-height: 1.8; margin: 0; }
+.home-directory { display: grid; grid-template-columns: 1.1fr .9fr; align-items: stretch; background: var(--plum-deep); color: #fff; min-height: 510px; }
+.home-directory-copy { padding: 92px clamp(22px, 8.3vw, 128px); }
+.home-directory-copy h2 { max-width: 590px; font-size: clamp(38px, 4.4vw, 61px); line-height: 1.02; margin-bottom: 22px; }
+.home-directory-copy > p:not(.eyebrow) { max-width: 425px; color: #d4c2cc; font-size: 14px; line-height: 1.8; margin-bottom: 31px; }
+.home-city-card { min-height: 510px; padding: 75px 11%; display: flex; flex-direction: column; justify-content: center; background: linear-gradient(140deg, #ead7df 0%, #c995ae 100%); color: var(--plum-deep); position: relative; overflow: hidden; }
+.home-city-card::before, .home-city-card::after { content: ""; position: absolute; border: 1px solid rgba(99,54,79,.30); border-radius: 50%; width: 490px; height: 490px; top: 50%; left: 50%; transform: translate(-33%, -50%); }
+.home-city-card::after { width: 330px; height: 330px; transform: translate(-33%, -50%); }
+.home-city-card > * { position: relative; z-index: 1; }
+.home-city-kicker { font-size: 10px; letter-spacing: 1.45px; font-weight: 700; text-transform: uppercase; }
+.home-city-card strong { font: 600 clamp(58px, 7vw, 98px)/.9 var(--display); letter-spacing: -.08em; margin: 29px 0 36px; }
+.home-city-card strong em { font-family: var(--serif); font-size: .7em; font-weight: 400; letter-spacing: -.04em; }
+.home-city-card-line { width: 42px; height: 3px; background: var(--plum); }
+.home-city-card-note { margin-top: 20px; font-size: 10px; letter-spacing: 1.1px; text-transform: uppercase; }
+.home-directory .button-light { color: var(--plum-deep); }
+.home-page .partner-band { background: #fff; padding-top: 1px; }
+.home-page .partner-band-inner { margin: 0 clamp(22px, 5.5vw, 84px); padding-left: clamp(22px, 5.5vw, 84px); padding-right: clamp(22px, 5.5vw, 84px); background: var(--plum-deep); }
+.home-page .site-footer { border-top: 1px solid #e5dce1; }
+@media (max-width: 760px) {
+  .home-page .site-header-home { background: linear-gradient(180deg, rgba(45, 25, 40, .62), transparent); }
+  .home-page .main-nav { background: var(--plum-deep); }
+  .home-hero { min-height: 750px; padding-top: 125px; background-position: 62% center; }
+  .home-hero-shade { background: linear-gradient(90deg, rgba(48, 26, 43, .9) 0%, rgba(48, 26, 43, .52) 100%), linear-gradient(0deg, rgba(42, 23, 38, .60), transparent 55%); }
+  .home-hero h1 { font-size: clamp(53px, 15vw, 76px); }
+  .home-hero-intro { font-size: 14px; max-width: 340px; }
+  .home-hero-footer { padding-top: 55px; flex-wrap: wrap; }
+  .hero-footer-line { display: none; }
+  .home-intro { display: block; padding-top: 76px; padding-bottom: 46px; }
+  .home-intro-copy { margin-top: 27px; font-size: 14px; }
+  .home-benefits { grid-template-columns: 1fr; gap: 35px; padding-bottom: 78px; }
+  .home-benefit p { max-width: 400px; }
+  .home-directory { grid-template-columns: 1fr; }
+  .home-directory-copy { padding-top: 75px; padding-bottom: 65px; }
+  .home-directory-copy h2 { font-size: clamp(39px, 11vw, 56px); }
+  .home-city-card { min-height: 360px; padding-top: 58px; padding-bottom: 58px; }
+  .home-page .partner-band-inner { margin: 0; }
+}
