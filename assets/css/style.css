@@ -256,7 +256,7 @@ h2 { font-size: clamp(34px, 4vw, 54px); line-height: 1.12; margin-bottom: 0; }
 .laser-secondary-link span { margin-left: 7px; font-size: 15px; font-weight: 400; }
 .laser-hero-note { margin: 18px 0 0; color: #927b74; font-size: 11px; }
 .laser-hero-photo { min-height: 0; height: min(520px, calc(100svh - 130px)); padding: 24px 7vw 24px 0; display: grid; place-items: center; position: relative; background: transparent; overflow: visible; }
-.laser-photo-frame { width: min(100%, 420px); height: 100%; position: relative; overflow: hidden; border: 10px solid #fff; background: #b9c9d6; box-shadow: 0 22px 55px rgba(78,48,43,.16); }
+.laser-photo-frame { width: min(100%, 420px); height: 100%; position: relative; overflow: hidden; border: 10px solid #fff; border-radius: 220px 220px 22px 22px; background: #b9c9d6; box-shadow: 0 22px 55px rgba(78,48,43,.16); }
 .laser-hero-photo img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center 23%; }
 .laser-photo-label { position: absolute; right: 16px; bottom: 16px; padding: 9px 12px; background: rgba(78,48,43,.86); color: #fffaf8; font-size: 8px; font-weight: 700; letter-spacing: 1.35px; }
 .laser-nap { display: grid; grid-template-columns: 1.05fr 1.3fr .95fr; gap: 5%; padding: 28px clamp(22px, 9vw, 140px); background: var(--laser-brown); color: #fffaf8; }
@@ -303,7 +303,7 @@ h2 { font-size: clamp(34px, 4vw, 54px); line-height: 1.12; margin-bottom: 0; }
   .laser-header-link span { display: none; }
   .laser-hero { display: flex; flex-direction: column-reverse; padding-left: 0; }
   .laser-hero-photo { min-height: 0; height: min(390px, 78vw); max-height: none; padding: 20px 22px 0; }
-  .laser-photo-frame { width: min(100%, 300px); border-width: 8px; }
+  .laser-photo-frame { width: min(100%, 300px); border-width: 8px; border-radius: 160px 160px 18px 18px; }
   .laser-hero-copy { padding: 57px 22px 65px; }
   .laser-hero h1 { font-size: clamp(46px, 13vw, 65px); }
   .laser-lead { font-size: 14px; }
@@ -346,7 +346,7 @@ h2 { font-size: clamp(34px, 4vw, 54px); line-height: 1.12; margin-bottom: 0; }
 @media (max-width: 760px) {
   .laser-header { min-height: 64px; }
   .laser-hero-photo { min-height: 0; height: min(390px, 78vw); max-height: none; padding: 20px 22px 0; }
-  .laser-photo-frame { width: min(100%, 300px); border-width: 8px; }
+  .laser-photo-frame { width: min(100%, 300px); border-width: 8px; border-radius: 160px 160px 18px 18px; }
   .laser-hero-copy { padding: 43px 22px 48px; }
   .laser-hero h1 { font-size: clamp(42px, 11vw, 57px); margin-bottom: 18px; }
   .laser-lead { margin-bottom: 22px; }
@@ -388,6 +388,6 @@ h2 { font-size: clamp(34px, 4vw, 54px); line-height: 1.12; margin-bottom: 0; }
   .laser-hero h1 { font-size: clamp(40px, 4.5vw, 60px); margin-bottom: 16px; }
   .laser-lead { font-size: 13px; line-height: 1.55; margin-bottom: 20px; }
   .laser-hero-photo { min-height: 0; height: calc(100svh - 118px); padding: 12px 6vw 12px 0; }
-  .laser-photo-frame { width: min(100%, 360px); }
+  .laser-photo-frame { width: min(100%, 360px); border-radius: 190px 190px 20px 20px; }
   .laser-hero-note { margin-top: 12px; }
 }
