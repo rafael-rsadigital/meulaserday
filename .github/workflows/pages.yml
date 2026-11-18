@@ -1,0 +1,50 @@
+name: Deploy preview to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Prepare static site for project URL
+        run: |
+          mkdir -p _site
+          cp index.html favicon.svg _site/
+          cp -R assets para-clinicas _site/
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          for path in Path('_site').rglob('*.html'):
+              content = path.read_text(encoding='utf-8')
+              content = re.sub(r'((?:href|src)=["\'])/(?!/)', r'\1/meulaserday/', content)
+              path.write_text(content, encoding='utf-8')
+          PY
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
