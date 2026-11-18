@@ -356,3 +356,34 @@ h2 { font-size: clamp(34px, 4vw, 54px); line-height: 1.12; margin-bottom: 0; }
   .laser-faq-list { margin-top: 28px; }
   .laser-footer { padding-top: 30px; }
 }
+
+/* Keep the first fold visible on short desktop/laptop viewports. */
+@media (min-width: 761px) and (max-height: 760px) {
+  .home-hero { height: 100svh; min-height: 0; padding-top: 92px; padding-bottom: 28px; }
+  .home-page .site-header-home { min-height: 70px; }
+  .home-hero .eyebrow { margin-bottom: 14px; }
+  .home-hero h1 { font-size: clamp(43px, 5.4vw, 76px); margin-bottom: 18px; }
+  .home-hero-intro { max-width: 390px; font-size: 13px; line-height: 1.5; margin-bottom: 20px; }
+  .home-hero-actions { gap: 18px; }
+  .home-hero-actions .button { min-height: 44px; }
+  .home-hero-footer { padding-top: 24px; }
+
+  .hero { min-height: calc(100svh - 86px); padding-top: 36px; padding-bottom: 36px; gap: 3vw; }
+  .hero-copy { padding: 12px 0; }
+  .hero .eyebrow { margin-bottom: 14px; }
+  .hero h1, .clinic-hero h1 { font-size: clamp(38px, 4.3vw, 58px); margin-bottom: 18px; }
+  .hero-intro { font-size: 13px; line-height: 1.55; margin-bottom: 20px; }
+  .hero-art, .clinic-art { min-height: 0; height: min(350px, calc(100svh - 190px)); }
+
+  .clinic-hero { min-height: calc(100svh - 86px); padding-top: 36px; padding-bottom: 36px; gap: 3vw; }
+  .clinic-copy { padding: 12px 0; }
+  .clinic-copy .eyebrow { margin-bottom: 14px; }
+  .clinic-copy .hero-intro { font-size: 13px; line-height: 1.55; margin-bottom: 20px; }
+
+  .laser-hero { min-height: calc(100svh - 68px); align-items: start; }
+  .laser-hero-copy { justify-content: flex-start; padding-top: 66px; padding-bottom: 26px; }
+  .laser-hero h1 { font-size: clamp(40px, 4.5vw, 60px); margin-bottom: 16px; }
+  .laser-lead { font-size: 13px; line-height: 1.55; margin-bottom: 20px; }
+  .laser-hero-photo { min-height: calc(100svh - 68px); }
+  .laser-hero-note { margin-top: 12px; }
+}
